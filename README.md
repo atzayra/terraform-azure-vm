@@ -1,2 +1,7 @@
 # terraform-azure-vm
-Terraform code to deploy a virtual machine in Azure.
+This project uses Terraform to deploy a basic Azure Resource Group and Virtual Network.
+
+## Usage
+```bash
+terraform init
+terraform apply -auto-approve
